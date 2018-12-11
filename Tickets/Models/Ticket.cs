@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Web;
@@ -19,9 +20,12 @@ namespace Tickets.Models
 
         [Required]
         [StringLength(255)]
-        public string Title { get; set; }
+        [DisplayName("Summary of the issue")]
+        public string Summary { get; set; }
 
         public ApplicationUser AssignedUser { get; set; }
+
+        public TicketType TicketType { get; set; }
 
     }
 }

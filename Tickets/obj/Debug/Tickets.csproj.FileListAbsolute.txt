@@ -122,3 +122,4 @@ C:\Users\Admin\source\repos\Tickets\Tickets\obj\Debug\Tickets.Migrations.initial
 C:\Users\Admin\source\repos\Tickets\Tickets\obj\Debug\Tickets.csproj.GenerateResource.cache
 C:\Users\Admin\source\repos\Tickets\Tickets\obj\Debug\Tickets.Migrations.addedTicketModel.resources
 C:\Users\Admin\source\repos\Tickets\Tickets\obj\Debug\Tickets.Migrations.addRequiredFieldsToTicket.resources
+C:\Users\Admin\source\repos\Tickets\Tickets\obj\Debug\Tickets.Migrations.ChangedTicketTitleToSummary.resources

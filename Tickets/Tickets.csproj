@@ -197,6 +197,7 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\TicketsController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -212,12 +213,19 @@
     <Compile Include="Migrations\201812111217242_addRequiredFieldsToTicket.Designer.cs">
       <DependentUpon>201812111217242_addRequiredFieldsToTicket.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201812112110512_ChangedTicketTitleToSummary.cs" />
+    <Compile Include="Migrations\201812112110512_ChangedTicketTitleToSummary.Designer.cs">
+      <DependentUpon>201812112110512_ChangedTicketTitleToSummary.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\ApplicationDbContext.cs" />
     <Compile Include="Models\ApplicationUser.cs" />
+    <Compile Include="Models\IssueTicket.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\Ticket.cs" />
+    <Compile Include="Models\TicketCategory.cs" />
+    <Compile Include="Models\TicketType.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
@@ -280,6 +288,7 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\Tickets\Create.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -306,6 +315,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201812111217242_addRequiredFieldsToTicket.resx">
       <DependentUpon>201812111217242_addRequiredFieldsToTicket.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201812112110512_ChangedTicketTitleToSummary.resx">
+      <DependentUpon>201812112110512_ChangedTicketTitleToSummary.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
