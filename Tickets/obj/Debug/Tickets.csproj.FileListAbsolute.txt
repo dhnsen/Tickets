@@ -123,3 +123,5 @@ C:\Users\Admin\source\repos\Tickets\Tickets\obj\Debug\Tickets.csproj.GenerateRes
 C:\Users\Admin\source\repos\Tickets\Tickets\obj\Debug\Tickets.Migrations.addedTicketModel.resources
 C:\Users\Admin\source\repos\Tickets\Tickets\obj\Debug\Tickets.Migrations.addRequiredFieldsToTicket.resources
 C:\Users\Admin\source\repos\Tickets\Tickets\obj\Debug\Tickets.Migrations.ChangedTicketTitleToSummary.resources
+C:\Users\Admin\source\repos\Tickets\Tickets\obj\Debug\Tickets.Migrations.RefactoredTicket.resources
+C:\Users\Admin\source\repos\Tickets\Tickets\obj\Debug\Tickets.Migrations.AddedTicketType.resources

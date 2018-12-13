@@ -20,12 +20,11 @@ namespace Tickets.Models
 
         [Required]
         [StringLength(255)]
-        [DisplayName("Summary of the issue")]
         public string Summary { get; set; }
 
         public ApplicationUser AssignedUser { get; set; }
 
-        public TicketType TicketType { get; set; }
+        public string TicketType { get; set; }
 
     }
 }

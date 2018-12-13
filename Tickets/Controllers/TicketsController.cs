@@ -9,10 +9,22 @@ namespace Tickets.Controllers
 {
     public class TicketsController : Controller
     {
+        private ApplicationDbContext _context;
+
+        public TicketsController()
+        {
+            _context = new ApplicationDbContext();
+        }
+        
         // GET: Tickets
         public ActionResult Create()
         {
-            return View();
+            var viewModel = new TicketFormViewModel
+            {
+                TicketTypes = _context.TicketTypes.ToList()
+            };
+
+            return View(viewModel);
         }
 
         [HttpPost]

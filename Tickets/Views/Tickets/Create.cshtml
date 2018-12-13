@@ -1,4 +1,4 @@
-﻿@model Tickets.Models.Ticket
+﻿@model Tickets.Models.TicketFormViewModel
 @{
     ViewBag.Title = "Create";
 }
@@ -8,7 +8,12 @@
 <form>
     <div class="form-group">
         @Html.LabelFor(m => m.Summary)
-        @Html.TextBoxFor(m => m.Summary, new { @class = "form-control"})
+        @Html.TextBoxFor(m => m.Summary, new { @class = "form-control" })
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.TicketTypes)
+        @Html.DropDownListFor(m => m.TicketTypes, new SelectList(Model.TicketTypes, "Id", "Name"), "", new { @class = "form-control" })
     </div>
 
     <button type="submit" class="btn btn-primary">Submit</button>

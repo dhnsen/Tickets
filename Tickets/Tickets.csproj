@@ -198,6 +198,7 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\TicketsController.cs" />
+    <Compile Include="Controllers\TicketTypesController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -217,14 +218,21 @@
     <Compile Include="Migrations\201812112110512_ChangedTicketTitleToSummary.Designer.cs">
       <DependentUpon>201812112110512_ChangedTicketTitleToSummary.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201812131126274_RefactoredTicket.cs" />
+    <Compile Include="Migrations\201812131126274_RefactoredTicket.Designer.cs">
+      <DependentUpon>201812131126274_RefactoredTicket.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201812131136551_AddedTicketType.cs" />
+    <Compile Include="Migrations\201812131136551_AddedTicketType.Designer.cs">
+      <DependentUpon>201812131136551_AddedTicketType.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\ApplicationDbContext.cs" />
     <Compile Include="Models\ApplicationUser.cs" />
-    <Compile Include="Models\IssueTicket.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
+    <Compile Include="Models\TicketFormViewModel.cs" />
     <Compile Include="Models\Ticket.cs" />
-    <Compile Include="Models\TicketCategory.cs" />
     <Compile Include="Models\TicketType.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
@@ -289,6 +297,11 @@
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Tickets\Create.cshtml" />
+    <Content Include="Views\TicketTypes\Create.cshtml" />
+    <Content Include="Views\TicketTypes\Delete.cshtml" />
+    <Content Include="Views\TicketTypes\Details.cshtml" />
+    <Content Include="Views\TicketTypes\Edit.cshtml" />
+    <Content Include="Views\TicketTypes\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -318,6 +331,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201812112110512_ChangedTicketTitleToSummary.resx">
       <DependentUpon>201812112110512_ChangedTicketTitleToSummary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201812131126274_RefactoredTicket.resx">
+      <DependentUpon>201812131126274_RefactoredTicket.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201812131136551_AddedTicketType.resx">
+      <DependentUpon>201812131136551_AddedTicketType.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
