@@ -5,7 +5,8 @@
 
 <h2>Create</h2>
 <br />
-<form>
+@using (Html.BeginForm("Create", "Tickets"))
+{
     <div class="form-group">
         @Html.LabelFor(m => m.Summary)
         @Html.TextBoxFor(m => m.Summary, new { @class = "form-control" })
@@ -17,4 +18,4 @@
     </div>
 
     <button type="submit" class="btn btn-primary">Submit</button>
-</form>
+}

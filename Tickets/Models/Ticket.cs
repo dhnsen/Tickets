@@ -13,6 +13,8 @@ namespace Tickets.Models
         public int Id { get; set; }
 
         [Required]
+        public string RequestorId { get; internal set; }
+
         public ApplicationUser Requestor { get; set; }
 
         [Required]
@@ -25,6 +27,6 @@ namespace Tickets.Models
         public ApplicationUser AssignedUser { get; set; }
 
         public string TicketType { get; set; }
-
+        
     }
 }
