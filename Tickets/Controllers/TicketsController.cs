@@ -49,7 +49,7 @@ namespace Tickets.Controllers
                 Summary = ticket.Summary,
                 TicketType = ticket.TicketType,
                 CreatedDate = DateTime.UtcNow,
-                Requestor = requestor
+                Customer = requestor
             };
             _context.Tickets.Add(newTicket);
             _context.SaveChanges();

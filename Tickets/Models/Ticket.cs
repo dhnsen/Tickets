@@ -15,7 +15,7 @@ namespace Tickets.Models
         [Required]
         public string RequestorId { get; internal set; }
 
-        public ApplicationUser Requestor { get; set; }
+        public ApplicationUser Customer { get; set; }
 
         [Required]
         public DateTime CreatedDate { get; set; }
