@@ -16,5 +16,8 @@ namespace ServiceManagement.Data
         {
         }
 
+        public ApplicationDbContext()
+        {
+        }
     }
 }

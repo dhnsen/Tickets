@@ -33,3 +33,5 @@ C:\Users\Admin\source\repos\Tickets\ServiceManagement\obj\Debug\netcoreapp2.1\Se
 C:\Users\Admin\source\repos\Tickets\ServiceManagement\obj\Debug\netcoreapp2.1\ServiceManagement.dll
 C:\Users\Admin\source\repos\Tickets\ServiceManagement\obj\Debug\netcoreapp2.1\ServiceManagement.pdb
 C:\Users\Admin\source\repos\Tickets\ServiceManagement\obj\Debug\netcoreapp2.1\ServiceManagement.csproj.CopyComplete
+C:\Users\Admin\source\repos\Tickets\ServiceManagement\obj\Debug\netcoreapp2.1\Razor\Views\Customers\Create.g.cshtml.cs
+C:\Users\Admin\source\repos\Tickets\ServiceManagement\obj\Debug\netcoreapp2.1\Razor\Views\Customers\Index.g.cshtml.cs
