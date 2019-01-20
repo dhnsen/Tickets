@@ -1,40 +1,35 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
 using System.Linq;
-using System.Threading.Tasks;
+using System.Web;
 
 namespace ServiceManagement.Models
 {
     public class Customer
     {
-        [Required]
         public int Id { get; set; }
 
-        [Required]
-        [Display(Name = "Customer Name")]
         public string Name { get; set; }
 
-        [Required]
-        [Display(Name = "Mailing Address")]
-        public string Address { get; set; }
+        public string PrimaryContact { get; set; }
 
-        [Required]
-        [Display(Name = "Primary phone")]
-        public int Phone { get; set; }
+        public string AddressLine1 { get; set; }
 
-        
-        [Display(Name = "Additional phone")]
-        public int SecondaryPhone { get; set; }
+        public string AddressLine2 { get; set; }
 
-        [Required]
-        [Display(Name = "Email Address")]
-        public string Email { get; set; }
+        public string City { get; set; }
 
-        [Required]
-        [Display(Name = "Hourly Billing rate")]
-        public decimal HourlyBillingRate { get; set; } 
+        public string State { get; set; }
 
+        public int PostalCode { get; set; }
+
+        public int Phone1 { get; set; }
+
+        public int Phone2 { get; set; }
+
+        public string Note { get; set; }
+
+        public decimal BillingRate { get; set; }
 
     }
 }
