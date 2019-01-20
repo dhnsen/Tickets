@@ -17,6 +17,6 @@ namespace ServiceManagement.Models
 
         public string Note { get; set; }
 
-        public bool IsBilled { get; set; }
+        public bool IsInvoiced { get; set; }
     }
 }
