@@ -117,3 +117,4 @@ C:\Users\Admin\source\repos\Tickets\ServiceManagement\obj\Debug\ServiceManagemen
 C:\Users\Admin\source\repos\Tickets\ServiceManagement\obj\Debug\ServiceManagement.csproj.GenerateResource.cache
 C:\Users\Admin\source\repos\Tickets\ServiceManagement\obj\Debug\ServiceManagement.Migrations.CreateCustomerTable.resources
 C:\Users\Admin\source\repos\Tickets\ServiceManagement\obj\Debug\ServiceManagement.Migrations.AddEmailToCustomer.resources
+C:\Users\Admin\source\repos\Tickets\ServiceManagement\obj\Debug\ServiceManagement.Migrations.CreateTicketTable.resources
