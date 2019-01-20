@@ -208,6 +208,10 @@
     <Compile Include="Migrations\201901201245004_CreateTicketTable.Designer.cs">
       <DependentUpon>201901201245004_CreateTicketTable.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201901201255017_CreateWorkBlockTable.cs" />
+    <Compile Include="Migrations\201901201255017_CreateWorkBlockTable.Designer.cs">
+      <DependentUpon>201901201255017_CreateWorkBlockTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\ApplicationDbContext.cs" />
@@ -304,6 +308,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201901201245004_CreateTicketTable.resx">
       <DependentUpon>201901201245004_CreateTicketTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201901201255017_CreateWorkBlockTable.resx">
+      <DependentUpon>201901201255017_CreateWorkBlockTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
