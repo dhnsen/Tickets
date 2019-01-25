@@ -120,3 +120,5 @@ C:\Users\Admin\source\repos\Tickets\ServiceManagement\obj\Debug\ServiceManagemen
 C:\Users\Admin\source\repos\Tickets\ServiceManagement\obj\Debug\ServiceManagement.Migrations.CreateTicketTable.resources
 C:\Users\Admin\source\repos\Tickets\ServiceManagement\obj\Debug\ServiceManagement.Migrations.CreateWorkBlockTable.resources
 C:\Users\Admin\source\repos\Tickets\ServiceManagement\obj\Debug\ServiceManagement.Migrations.ChangedWorkBlockBilledToInvoiced.resources
+C:\Users\Admin\source\repos\Tickets\ServiceManagement\obj\Debug\ServiceManagement.Migrations.AddedIdsToUsersInTicket.resources
+C:\Users\Admin\source\repos\Tickets\ServiceManagement\obj\Debug\ServiceManagement.Migrations.changedUserIdsInTicketTostring.resources

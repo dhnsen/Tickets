@@ -12,7 +12,12 @@ namespace ServiceManagement.Models
 
         public ApplicationUser CreatedBy { get; set; }
 
+        [Required]
+        public string CreatedById { get; set; }
+
         public ApplicationUser AssignedAgent { get; set; }
+
+        public string AssignedAgentId { get; set; }
 
         public DateTime CreatedDate { get; set; }
 

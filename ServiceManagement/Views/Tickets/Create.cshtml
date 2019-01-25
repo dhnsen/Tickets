@@ -5,10 +5,8 @@
 
 <h2>Create</h2>
 
-<form>
-    <div class="form-group">
-        
-    </div>
+@using (Html.BeginForm("Create", "Tickets"))
+{
     <div class="form-group">
         @Html.LabelFor(m => m.Customer)
         @Html.DropDownListFor(m => m.Customer, new SelectList(Model.Customers, "Id", "Name"), "", new { @class = "form-control" })
@@ -22,4 +20,4 @@
         @Html.TextAreaFor(m => m.Description, new { @class = "form-control", @cols = 80, @rows = 5, @style = "resize: none;" })
     </div>
     <button type="submit" class="btn btn-primary">Save</button>
-</form>
+}
