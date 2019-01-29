@@ -122,3 +122,4 @@ C:\Users\Admin\source\repos\Tickets\ServiceManagement\obj\Debug\ServiceManagemen
 C:\Users\Admin\source\repos\Tickets\ServiceManagement\obj\Debug\ServiceManagement.Migrations.ChangedWorkBlockBilledToInvoiced.resources
 C:\Users\Admin\source\repos\Tickets\ServiceManagement\obj\Debug\ServiceManagement.Migrations.AddedIdsToUsersInTicket.resources
 C:\Users\Admin\source\repos\Tickets\ServiceManagement\obj\Debug\ServiceManagement.Migrations.changedUserIdsInTicketTostring.resources
+C:\Users\Admin\source\repos\Tickets\ServiceManagement\obj\Debug\ServiceManagement.Migrations.ChangedCustomerFieldsToStrings.resources

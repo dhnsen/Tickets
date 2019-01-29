@@ -27,11 +27,11 @@ namespace ServiceManagement.Models
         public string State { get; set; }
 
         [Required]
-        public int PostalCode { get; set; }
+        public string PostalCode { get; set; }
 
-        public int Phone1 { get; set; }
+        public string Phone1 { get; set; }
 
-        public int Phone2 { get; set; }
+        public string Phone2 { get; set; }
 
         [Required]
         public string Email { get; set; }
